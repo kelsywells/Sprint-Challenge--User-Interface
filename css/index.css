@@ -62,6 +62,8 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+
+/*Index/Home page*/
 header {
     margin: 40px 0px;
     width: 100%;
@@ -196,3 +198,64 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About page*/
+
+html {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.about {
+    width: 800px;
+    padding-top: 20px;
+}
+
+.top-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.bottom-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.box-paragraphs {
+    width: 100%;
+    margin: 10 0px;
+}
+
+.strategy {
+    width: 380px;
+}
+.how-we-work {
+    width: 380px;
+}
+.places-we-work {
+    width: 380px;
+}
+.collaborations {
+    width: 380px;
+}
+hr {
+    margin: 20px 10px;
+    
+}
+
+button {
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background: white;
+}
+
+
